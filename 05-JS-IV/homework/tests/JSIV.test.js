@@ -214,11 +214,11 @@ describe('sumarLikesDeUsuario(user)', function() {
 describe('agregarMetodoCalculoDescuento(storeItem)', function() {
   const storeItem = {
     precio: 80,
-    porcentajeDeDescuento: 0.1,
+    porcentajeDeDescuento: 0.1
   };
   const storeItem2 = {
     precio: 5,
-    porcentajeDeDescuento: 0.5,
+    porcentajeDeDescuento: 0.5
   };
 
   it('should add the method \'calcularPrecioDescuento\' to the store item object', function() {
